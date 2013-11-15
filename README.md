@@ -1,4 +1,6 @@
 # PHP Populator (Array-to-Object)
+[![Build Status](https://travis-ci.org/touki653/populator.png?branch=master)](https://travis-ci.org/touki653/populator)
+
 
 PHP Populator is a simple Array-To-Object library which transforms arrays into a given object with a few additions with Annotations.  
 This is **not** a deserializer. If you're looking for a serializer/deserializer, I advise you to use [**jms/serializer**](https://github.com/schmittjoh/serializer).
