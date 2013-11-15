@@ -1,0 +1,21 @@
+{
+    "name": "touki/populator",
+    "description": "A simple Array-to-Object library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Touki",
+            "email": "g.vincendon@vithemis.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/annotations": "~1.1.2"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Touki\\Populator": [ "lib/", "tests/" ]
+        }
+    }
+}
