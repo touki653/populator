@@ -63,6 +63,25 @@ $populator = new Populator;
 ?>
 ```
 
+However if you're getting an error
+
+> [Semantical Error] The annotation "..." does not exist, or could not be auto-loaded.
+
+You should add the following lines at the top of your application.  
+This allows doctrine to know how to import your annotations from its own autoloader.
+
+```php
+<?php
+
+$loader = require '/path/to/app/vendor/autoload.php'; // Composer autoloader
+
+use Doctrine\Common\Annotations\AnnotationRegistry;
+
+AnnotationRegistry::registerLoader(array($loader, 'loadClass'));
+
+?>
+```
+
 And, that's it! You can already already start using the library. See [Usage](#usage) for more informations
 
 ## Advanced setup
