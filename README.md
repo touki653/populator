@@ -14,6 +14,13 @@ Plus, behaviour can be easily modified (decoupled), and it's unit tested!
    - [Basic Setup](#basic-setup)
    - [Advanced Setup](#advanced-setup)
  - [Usage](#usage)
+   - [Simple Usage](#simple-usage)
+   - [Annotations](#annotations)
+     - [@Populator\Ignore](#populatorignore)
+     - [@Populator\Setter](#populatorsetter)
+     - [@Populator\Alias](#populatoralias)
+     - [@Populator\Aliases](#populatoraliases)
+     - [@Populator\Deep](#populatordeep)
  
 # Installation
 
@@ -63,7 +70,7 @@ It needs an instance of [`HydratorInterface`][HydratorInterface] (Will hydrate t
 
 To reproduce the default behaviour you can do something like this
 
-```
+```php
 <?php
 
 use Touki\Populator\Populator;
