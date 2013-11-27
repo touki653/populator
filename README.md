@@ -182,7 +182,7 @@ This annotation skips the setting of the property
 ```php
 <?php
 
-use Touki\Populator\Annotations as Populator;
+use Touki\Populator\Annotation as Populator;
 
 class Foo
 {
@@ -210,7 +210,7 @@ This annotation allows property to define its own class' setter
 ```php
 <?php
 
-use Touki\Populator\Annotations as Populator;
+use Touki\Populator\Annotation as Populator;
 
 class Foo
 {
@@ -243,7 +243,7 @@ This annotation adds an alias to match on a property
 ```php
 <?php
 
-use Touki\Populator\Annotations as Populator;
+use Touki\Populator\Annotation as Populator;
 
 class Foo
 {
@@ -285,7 +285,7 @@ This annotation sets and replaces aliases
 ```php
 <?php
 
-use Touki\Populator\Annotations as Populator;
+use Touki\Populator\Annotation as Populator;
 
 class Foo
 {
